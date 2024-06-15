@@ -1,0 +1,10 @@
+.custom-navbar .nav-link {
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.custom-navbar .nav-item.active .nav-link {
+    color: red; /* Color of the active link */
+}
