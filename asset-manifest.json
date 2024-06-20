@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.28be1bd1.css",
+    "main.js": "/portfolio/static/js/main.b4300c28.js",
+    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/itsme.png": "/portfolio/static/media/itsme.57350e43854039a2891c.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Logo.webp": "/portfolio/static/media/Logo.8ffe8ea938896d651e67.webp",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/sgbau.png": "/portfolio/static/media/sgbau.a5a761202c50bbf60323.png",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/projectsimage.svg": "/portfolio/static/media/projectsimage.0a8062569966b4888c7c3775e18c8f37.svg",
+    "static/media/programmer.svg": "/portfolio/static/media/programmer.becd1465cc28d37ba166c0a5ec233467.svg",
+    "static/media/addressimage.svg": "/portfolio/static/media/addressimage.3385d92e5e426e57a5b1a8bd7b640514.svg",
+    "static/media/fullstack.svg": "/portfolio/static/media/fullstack.32a1ffc74848a2ed7dbf52d6197eb175.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.be71bed1bce21ae23843e3443f0b1408.svg",
+    "static/media/education.svg": "/portfolio/static/media/education.d5cc42f042227db12468b16ec165cee4.svg",
+    "static/media/codefirstlogo.svg": "/portfolio/static/media/codefirstlogo.a60216c417d001a146dc8d80b1d489ce.svg",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.93fe84041cc1b588f15c332248529333.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "main.28be1bd1.css.map": "/portfolio/static/css/main.28be1bd1.css.map",
+    "main.b4300c28.js.map": "/portfolio/static/js/main.b4300c28.js.map",
+    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28be1bd1.css",
+    "static/js/main.b4300c28.js"
+  ]
+}
