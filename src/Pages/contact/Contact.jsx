@@ -36,7 +36,7 @@ const Contact = () => {
                             </div>
 
                             <div className="col-12 mt-2 text-start">
-                                <button className="btn text-white w-50 resumebtn" style={{ backgroundColor: 'crimson' }} onClick={seeResume}>
+                                <button className="btn text-white w-50 resumebtn" style={{ backgroundColor: 'crimson'}} onClick={seeResume}>
                                     SEE MY RESUME
                                 </button>
                             </div>
