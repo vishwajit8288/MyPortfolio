@@ -22,17 +22,17 @@ const Header = () => {
                                 </button>
                                 <div className="collapse navbar-collapse" id="navbarNav">
                                     <ul className="navbar-nav ms-auto">
-                                        <li className={`nav-item ms-5 ${activeLink === "/Home" ? "active" : ""}`}>
-                                            <Link className="nav-link" to="/Home"><b>Home</b></Link>
+                                        <li className={`nav-item ms-5 ${activeLink === "/" ? "active" : ""}`}>
+                                            <Link className="nav-link" to="/"><b>Home</b></Link>
                                         </li>
                                         <li className={`nav-item ms-5 ${activeLink === "/Education" ? "active" : ""}`}>
                                             <Link className="nav-link" to="/Education"><b>Education</b></Link>
                                         </li>
-                                        <li className={`nav-item ms-5 ${activeLink === "/Projects" ? "active" : ""}`}>
-                                            <Link className="nav-link" to="/Projects"><b>Projects</b></Link>
+                                        <li className={`nav-item ms-5 ${activeLink === "/Project" ? "active" : ""}`}>
+                                            <Link className="nav-link" to="/Project"><b>Projects</b></Link>
                                         </li>
-                                        <li className={`nav-item ms-5 ${activeLink === "/ContactMe" ? "active" : ""}`}>
-                                            <Link className="nav-link" to="/ContactMe"><b>Contact Me</b></Link>
+                                        <li className={`nav-item ms-5 ${activeLink === "/Contact" ? "active" : ""}`}>
+                                            <Link className="nav-link" to="/Contact"><b>Contact Me</b></Link>
                                         </li>
                                     </ul>
                                 </div>

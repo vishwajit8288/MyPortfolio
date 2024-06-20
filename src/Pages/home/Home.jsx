@@ -8,15 +8,12 @@ import css from '../../Asset/Imges/css.svg';
 import bootstrap from '../../Asset/Imges/bootstrap.svg';
 import javascript from '../../Asset/Imges/javascript.svg';
 import react from '../../Asset/Imges/react.svg';
-import { Link } from 'react-router-dom';
-
+import Icons from '../../Components/common/Icons';
+import CommonBtn from '../../Components/common/CommonBtn';
+import 'animate.css'
 const Home = () => {
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        });
-    };
+
+
 
     return (
         <div>
@@ -24,20 +21,13 @@ const Home = () => {
                 <section>
                     <div className="row" style={{ marginTop: '120px' }}>
                         <div className="col-lg-6 col-md-12 order-2 order-lg-1 mt-3">
-                            <h1 className='myname text-start'>VISHWAJIT RATHOD 👋</h1>
+                            <h1 className='myname text-start animate__animated animate__bounceInDown'>VISHWAJIT RATHOD 👋</h1>
                             <p className="p text-start">
                                 I'm a frontend developer passionate about creating clean,
                                 responsive, and user-friendly interfaces. With hands-on experience
                                 in HTML, CSS, JavaScript, Bootstrap, and React.
                             </p>
-                            <div className="icon-container">
-                                <Link to="https://github.com/vishwajit8288?tab=repositories" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github fa-3x github-icon"></i>
-                                </Link>
-                                <Link to="https://www.linkedin.com/in/vishwajit-rathod-a82a5a289/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin fa-3x linkedin-icon"></i>
-                                </Link>
-                            </div>
+                            <Icons />
                         </div>
                         <div className="col-lg-6 col-md-12 order-1 order-lg-2 d-flex justify-content-center align-items-center">
                             <img src={programmer} alt="Programmer" className='img-fluid' />
@@ -83,13 +73,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row text-end">
-                    <div className="col-12">
-                        <div id="topButton" title="Go up" onClick={scrollToTop}>
-                            <i className="fa fa-arrow-up" id="arrow"></i>
-                        </div>
-                    </div>
-                </div>
+                <CommonBtn />
             </div>
             <Footer />
         </div>

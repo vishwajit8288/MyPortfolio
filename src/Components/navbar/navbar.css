@@ -2,9 +2,14 @@
     color: black;
     transition: background-color 0.3s, color 0.3s;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.nav-link:hover{
+    background-color:#7fc2dd;
 }
 
 
-.custom-navbar .nav-item.active .nav-link {
+.custom-navbar .nav-item.active .nav-link{
     color: red; /* Color of the active link */
+
 }
