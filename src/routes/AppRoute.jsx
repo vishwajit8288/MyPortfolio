@@ -10,7 +10,7 @@ import Contact from '../Pages/contact/Contact';
 const AppRoutes = () => {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename="/MyPortfolio">
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
