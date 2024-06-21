@@ -1,23 +1,22 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from '../Components/navbar/Navbar'
+import Navbar from '../Components/navbar/Navbar';
 
-import Home from '../Pages/home/Home'
-import Education from '../Pages/education/Education'
-import Project from '../Pages/project/Project'
-import Contact from '../Pages/contact/Contact'
+import Home from '../Pages/home/Home';
+import Education from '../Pages/education/Education';
+import Project from '../Pages/project/Project';
+import Contact from '../Pages/contact/Contact';
 
 const AppRoutes = () => {
     return (
         <div>
-                
             <BrowserRouter>
-                <Navbar></Navbar>
+                <Navbar />
                 <Routes>
-                    <Route path='/' element={<Home></Home>}></Route>
-                    <Route path='Education' element={<Education></Education>}></Route>
-                    <Route path='Project' element={<Project></Project>}></Route>
-                    <Route path='Contact' element={<Contact></Contact>}></Route>
+                    <Route path="/" element={<Home />} />
+                    <Route path="Education" element={<Education />} />
+                    <Route path="Project" element={<Project />} />
+                    <Route path="Contact" element={<Contact />} />
                 </Routes>
             </BrowserRouter>
         </div>
