@@ -2,13 +2,13 @@ import React from 'react';
 import projectsimage from '../../Asset/Imges/projectsimage.svg';
 import CommonBtn from '../../Components/common/CommonBtn';
 import Footer from '../../Components/footer/Footer';
-import '../../Asset/css/project.css'
+import '../../Asset/css/project.css';
 
 const Project = () => {
     return (
         <div className="container-fluid project-container">
             <section className="project-section" style={{ minHeight: '100vh' }}>
-                <div className="row">
+                <div className="row align-items-center">
                     <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
                         <img src={projectsimage} className="img-fluid project-image" alt="Projects" />
                     </div>
@@ -29,8 +29,8 @@ const Project = () => {
                     <div className="col-12 mb-4">
                         <h2 className="section-title">Created Projects</h2>
                     </div>
-                    <div className="col-md-4">
-                        <div className="card">
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <div className="card h-100">
                             <div className="card-body">
                                 <a href='https://github.com/vishwajit8288/Tickets' target='_blank' rel="noopener noreferrer" className="text-decoration-none">
                                     <h3 className='card-title text-start'>Ticket Tool</h3>
@@ -44,8 +44,8 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
-                        <div className="card">
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <div className="card h-100">
                             <div className="card-body">
                                 <a href='https://github.com/vishwajit8288/MiniProjectIdea' target='_blank' rel="noopener noreferrer" className="text-decoration-none">
                                     <h3 className='card-title text-start'>Mini ProjectIdeas</h3>
@@ -58,8 +58,8 @@ const Project = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-4">
-                        <div className="card">
+                    <div className="col-md-4 col-sm-12 mb-4">
+                        <div className="card h-100">
                             <div className="card-body">
                                 <a href='https://github.com/vishwajit8288/EventOrganizer' target='_blank' rel="noopener noreferrer" className="text-decoration-none">
                                     <h3 className='card-title text-start'>Event Planner</h3>
@@ -68,7 +68,6 @@ const Project = () => {
                                     An application to efficiently organize events, manage guest lists, and coordinate schedules, ensuring seamless event execution.
                                 </p>
                                 <p className='card-text text-muted text-start'>Created on 7/1/2024</p>
-
                             </div>
                         </div>
                     </div>
